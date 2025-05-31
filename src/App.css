@@ -1,0 +1,44 @@
+*, *::after, *::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: var(--bg);
+  color: var(--text);
+  scroll-behavior: smooth;
+}
+
+html, body, #root {
+  width: 100%;
+  min-height: 100vh;
+  top: 0;
+}
+
+
+
+.app {
+  width: 100%;
+  min-height: 100vh;
+  --bg: white;
+  --text: rgb(32, 32, 32);
+  --primary: rgb(216, 69, 37);
+  --text-2: rgb(59, 44, 41);
+  --secondary: rgb(242, 237, 205, .6);
+  /* background: linear-gradient(var(--bg), rgb(36, 36, 36)); */
+  color: var(--text);
+  font-family: Poppins;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+img {
+  filter: brightness(.8);
+}
