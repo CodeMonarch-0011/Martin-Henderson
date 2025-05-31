@@ -16,7 +16,7 @@ function App() {
     <div className='app'> 
       <Navbar setSliderOpen={setSliderOpen} setContactOpen={setContactOpen} />
 
-      <Main />
+      <Main setContactOpen={setContactOpen} />
       
       {
         sliderOpen && !contactOpen

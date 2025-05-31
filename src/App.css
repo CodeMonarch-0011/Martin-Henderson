@@ -24,6 +24,7 @@ html, body, #root {
   --bg: white;
   --text: rgb(32, 32, 32);
   --primary: rgb(216, 69, 37);
+  --primary-light: rgb(216, 69, 37, .4);
   --text-2: rgb(59, 44, 41);
   --secondary: rgb(242, 237, 205, .6);
   /* background: linear-gradient(var(--bg), rgb(36, 36, 36)); */

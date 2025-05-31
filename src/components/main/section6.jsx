@@ -11,7 +11,7 @@ function Copyright () {
     )
 }
 
-export function Section6 () {
+export function Section6 ({setContactOpen}) {
     return (
         <section className="section-6">
             <div className="section-6-cnt">
@@ -25,15 +25,15 @@ export function Section6 () {
             </div>
 
             <div className="section-6-contacts-container">
-                <button className="button">
+                <button className="button" onClick={() => setContactOpen(true)}>
                     Contact Us
                 </button>
 
-                <div className="section-6-contacts">
+                {/* <div className="section-6-contacts">
                     <span onClick={() => openSocial("https://www.instagram.com/travisfimmel")}> <AiFillInstagram /> </span>
                     <span onClick={() => openSocial("https://m.imdb.com/name/nm1379938")}> <FaImdb /> </span>
                     <span onClick={() => openSocial("https://www.facebook.com/profile.php?id=61564081196362")}> <FaFacebookSquare /> </span>
-                </div>
+                </div> */}
             </div>
 
             <Copyright />
